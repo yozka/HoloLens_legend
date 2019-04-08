@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legend.HoloLens", "..\Legend.HoloLens\Legend.HoloLens.csproj", "{0978F3B7-6629-40DB-94BC-6BB508C0DC70}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Legend", "..\Legend\Legend.shproj", "{B5F93EED-81F6-4221-8CD0-0580D661C2DA}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Legend\Legend.projitems*{0978f3b7-6629-40db-94bc-6bb508c0dc70}*SharedItemsImports = 4
+		..\Legend\Legend.projitems*{b5f93eed-81f6-4221-8cd0-0580d661c2da}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0978F3B7-6629-40DB-94BC-6BB508C0DC70}.Debug|x64.ActiveCfg = Debug|x64
+		{0978F3B7-6629-40DB-94BC-6BB508C0DC70}.Debug|x64.Build.0 = Debug|x64
+		{0978F3B7-6629-40DB-94BC-6BB508C0DC70}.Debug|x64.Deploy.0 = Debug|x64
+		{0978F3B7-6629-40DB-94BC-6BB508C0DC70}.Debug|x86.ActiveCfg = Debug|x86
+		{0978F3B7-6629-40DB-94BC-6BB508C0DC70}.Debug|x86.Build.0 = Debug|x86
+		{0978F3B7-6629-40DB-94BC-6BB508C0DC70}.Debug|x86.Deploy.0 = Debug|x86
+		{0978F3B7-6629-40DB-94BC-6BB508C0DC70}.Release|x64.ActiveCfg = Release|x64
+		{0978F3B7-6629-40DB-94BC-6BB508C0DC70}.Release|x64.Build.0 = Release|x64
+		{0978F3B7-6629-40DB-94BC-6BB508C0DC70}.Release|x64.Deploy.0 = Release|x64
+		{0978F3B7-6629-40DB-94BC-6BB508C0DC70}.Release|x86.ActiveCfg = Release|x86
+		{0978F3B7-6629-40DB-94BC-6BB508C0DC70}.Release|x86.Build.0 = Release|x86
+		{0978F3B7-6629-40DB-94BC-6BB508C0DC70}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
